@@ -12,10 +12,10 @@ spec:
   #       name: regsecret
   #       key: .dockercfg
   deployments:
-  - name: nginx 
-    containers: 
+  - name: nginx
+    containers:
     - name: nginx
       path: .
       dockerfile: Dockerfile
   authorizedKeys:
-  - "ssh-rsa <key>"
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5R61v2oY/XWtR0lXY5D79mUfvdxiieqtYyuHi+z3iF8s3YUr2G8qlsV6xYULn6GZzsSspCyH3K0iGi9aflBGvXvuTAIeJOhqJLq5gzuY1TqlDOpe67nLJhg6un1uLP7EZG+NLbEfoP8Ov5icGF3HY4v0PpLIMKoDubzid1zkvPuKxv/yhffx53eP9Hz+RZC6GNEC3CbqxmOtw0s19JHu4Nqwsj/OFxZ2CHBDbbtCyYl/htg5eVA4UhRvcuIiFyNH161jCM5F0+2UXcLYpyLFcWCt0AZT2K1YvjYhbbpGoy646radopmqfBQc5RkDqnClI8yo/Eh9wHCgf1rsBYZUJ shashank.koppar@shashankkoppar.local
